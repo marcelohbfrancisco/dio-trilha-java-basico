@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // classe Scanner, necessaria para que o Usurio possa fornecer o input de dados
+        Scanner scanner = new Scanner(System.in); // classe Scanner, necessaria para que o Usurio possa fornecer o input de dados.
 
         int numero;
         String agencia;
@@ -11,7 +11,7 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da conta");
         numero = scanner.nextInt();
-        scanner.nextLine(); // linha necessaria para o o funcionamento correto do comportamento desejado do código
+        scanner.nextLine(); // linha necessaria para o funcionamento correto e comportamento desejado do código.
 
         System.out.println("Por favor, digite o numero da agencia:");
         agencia = scanner.nextLine();
